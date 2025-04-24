@@ -12,10 +12,10 @@ Apply clean, consistent styling with alternating color themes.
 
 Deploy the project to GitHub Pages or any hosting platform.
 
-#🧾 Steps to Run the Project
+# Steps to Run the Projec
 Clone the Repository
 
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/Guna614-UI/Task-1-Portfolio-Website.git
 cd portfolio-website
 Open in VS Code or any code editor
 Open the index.html file in your browser to view the site.
@@ -26,7 +26,7 @@ Place your resume file as resume.pdf in the root folder to enable downloading fr
 Customize (Optional)
 You can update contact form link or project links as per your preference.
 
-✅ Evaluation Criteria & How It’s Met
+# ✅ Evaluation Criteria & How It’s Met
 
 Criteria	Implementation Summary
 Functionality	All required sections are included: About, Skills, Projects, Contact Form, Resume.
@@ -35,9 +35,9 @@ User Experience	Fully responsive design. Alternate dark/light sections enhance r
 Innovation & Creativity	Unique red-highlighted theme with inverted section colors adds a modern, stylish look.
 Documentation	Clear explanation, steps to run the project, and organized README.md.
 
-#📁 Project Structure
+# 📁 Project Structure
 portfolio-website/
 │
-├── index.html           # Main portfolio HTML file
-├── resume.pdf           # Your downloadable resume
-└── README.md            # This file
+├── index.html                                     # Main portfolio HTML file
+├── 22pa5a5704_KatakamGunaSuryaKumar.pdf           # Your downloadable resume
+└── README.md                                      # This file

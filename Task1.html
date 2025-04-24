@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K Guna Surya Kumar | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans">
+
+  <!-- Header -->
+  <header class="bg-black text-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-red-500">Guna's Portfolio</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#about" class="hover:text-red-500">About</a></li>
+          <li><a href="#skills" class="hover:text-red-500">Skills</a></li>
+          <li><a href="#projects" class="hover:text-red-500">Projects</a></li>
+          <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="bg-black text-white py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold text-red-500 mb-4">About Me</h2>
+      <p class="text-lg">
+        Hi! I'm <span class="text-red-500 font-semibold">K Guna Surya Kumar</span>, a passionate and dedicated web developer with strong foundations in Python, frontend development, and data analytics. I love turning ideas into interactive and responsive websites.
+      </p>
+      <a href="files/22pa5a5704_KatakamGunaSuryaKumar.pdf" download class="inline-block mt-6 bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-white text-black py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-red-500 text-center mb-10">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4 border rounded shadow hover:shadow-lg">Python</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">HTML & CSS</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">JavaScript</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">Tailwind, Bootstrap</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">MongoDB</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">DBMS</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">AWS Cloud</div>
+        <div class="p-4 border rounded shadow hover:shadow-lg">Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-black text-white py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-red-500 text-center mb-10">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-6 border rounded bg-gray-900">
+          <h3 class="text-2xl font-semibold text-red-400">Password Generator & Analyzer</h3>
+          <p class="mt-2">Built using HTML, CSS, Tailwind CSS, and JavaScript. Displays password strength, dictionary strength, and whether the password was leaked. Includes a copy-to-clipboard feature.</p>
+          <a href="#" class="text-red-500 underline mt-2 inline-block">View Project</a>
+        </div>
+        <div class="p-6 border rounded bg-gray-900">
+          <h3 class="text-2xl font-semibold text-red-400">SpendWise - Smart Expense Manager</h3>
+          <p class="mt-2">Infosys Springboard project. Designed to track and analyze expenses using a user-friendly interface and clean dashboard insights.</p>
+          <a href="#" class="text-red-500 underline mt-2 inline-block">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-white text-black py-20">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold text-red-500 mb-6">Contact Me</h2>
+      <form action="https://formspree.io/f/mnqekgyd" method="POST" class="grid gap-4">
+        <input type="text" name="name" placeholder="Your Name" required class="p-3 border border-gray-400 rounded">
+        <input type="email" name="email" placeholder="Your Email" required class="p-3 border border-gray-400 rounded">
+        <textarea name="message" placeholder="Your Message" required rows="5" class="p-3 border border-gray-400 rounded"></textarea>
+        <button type="submit" class="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4">
+    <p class="text-sm">© 2025 K Guna Surya Kumar. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
